@@ -42,7 +42,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 4em;
-    margin-bottom: 1%;
+    margin: 6% 0 1% 0;
 }
 .home, .menu, .contact {
     width: 20%;
