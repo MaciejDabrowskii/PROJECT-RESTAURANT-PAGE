@@ -3,7 +3,7 @@ import burgerPhoto2 from './images/burger2.jpg';
 import burgerPhoto3 from './images/burger3.jpg';
 import burgerPhoto4 from './images/burger4.jpg';
 import burgerPhoto5 from './images/burger5.jpg';
-import burgerPhoto6 from './images/burger6.jpeg';
+import burgerPhoto6 from './images/burger6.jpg';
 
 
 const menu = () => {
