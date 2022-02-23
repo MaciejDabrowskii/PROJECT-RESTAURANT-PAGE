@@ -119,7 +119,7 @@ ul > li {
 }
 .infoDiv {
     display: grid;
-    grid-template: 1fr 2fr /  1fr 1fr;
+    grid-template: 1fr 1fr /  1fr 1fr;
 }
 .address {
     grid-area: 1 / 1 / 2 / 2;
@@ -136,6 +136,7 @@ ul > li {
 .address > p {
     font-size: 1.4em;
     text-align: center;
+    padding-bottom: 4%;
     border-bottom: 2px solid rgb(206, 13, 13)
 }
 .addressIconDiv {
@@ -170,5 +171,26 @@ ul > li {
 }
 .contactIconImg {
     width: 47%;
+}
+.contactDiv > h3 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 2px solid rgb(206, 13, 13)
+}
+.contactDiv > p {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 4%;
+    border-bottom: 2px solid rgb(206, 13, 13)
+}
+.mapDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.mapDiv > h3 {
+    font-size: 2em;
 }
 

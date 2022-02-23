@@ -33,7 +33,7 @@ const contact = () => {
             
             const addressHeader = document.createElement('h3')
             addressHeader.classList.add('addressHeader');
-            addressHeader.innerText = "Address";
+            addressHeader.innerText = "Address:";
             
             const addressName = document.createElement('p');
             addressName.classList.add('addressName');
@@ -80,11 +80,13 @@ const contact = () => {
         const map = () => {
             const mapDiv = document.createElement('div');
             mapDiv.classList.add('mapDiv');
+            const mapHeader = document.createElement('h3');
+            mapHeader.textContent = "FIND US!";
             const mapImg = document.createElement('img');
             mapImg.classList.add('mapImg');
             mapImg.src = mapImage;
             
-            mapDiv.append(mapImg);
+            mapDiv.append(mapHeader, mapImg);
             
             return mapDiv;
         }
