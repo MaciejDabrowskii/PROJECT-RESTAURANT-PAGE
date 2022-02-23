@@ -21,24 +21,35 @@ body {
     text-align: center;
     color: white;
     font-size: 1.5em;
-    margin-top: 5% ;
+}
+.header {
+    background-image: url("./images/header-background.jpg");
+    background-color: #cccccc;
+    background-size: cover;  
+    height: 50vh;
+    margin-top: 2%;
+
 }
 .header > h1 {
     text-align: center;
+    margin-top: 0;
     color: rgb(243, 222, 35);
     font-size: 8em;
     letter-spacing: 0.2em;
+    padding-top: 8%;
 }
 .buttons {
     display: flex;
     justify-content: center;
     font-size: 4em;
+    margin-bottom: 1%;
 }
 .home, .menu, .contact {
     width: 20%;
     height:20%;
     text-align: center;
     cursor: pointer;
+    color: rgb(243, 222, 35);
 }
 .homeContents {
     display: flex;
@@ -78,7 +89,6 @@ body {
     width: 100%;
     height: 70%;
     grid-template: 1fr 6fr / 1fr 3fr;
-    /* border: 4px solid rgba(24, 204, 69, 0.664); */
     padding: 1%;
     justify-items: center;
     align-items: center;
@@ -116,10 +126,14 @@ ul > li {
     border-bottom: 4px solid rgb(206, 13, 13);
     letter-spacing: 0.12em;
     margin-top: 8%;
+    margin-bottom: 2%;
 }
 .infoDiv {
     display: grid;
     grid-template: 1fr 1fr /  1fr 1fr;
+    background-image: url("./images/contact-background.jpg");
+    background-color: #cccccc;
+    background-size: cover;  
 }
 .address {
     grid-area: 1 / 1 / 2 / 2;
@@ -131,13 +145,14 @@ ul > li {
 .address > h3 {
     font-size: 2em;
     text-align: center;
-    border-bottom: 2px solid rgb(206, 13, 13)
+    border-bottom: 2px solid rgb(206, 13, 13);
 }
 .address > p {
     font-size: 1.4em;
     text-align: center;
     padding-bottom: 4%;
-    border-bottom: 2px solid rgb(206, 13, 13)
+    border-bottom: 2px solid rgb(206, 13, 13);
+    font-weight: 600;
 }
 .addressIconDiv {
     display: flex;
@@ -152,11 +167,6 @@ ul > li {
     justify-self: center;
     padding: 10%;
     margin: 5% 24% 0 0;
-}
-.mapDiv {
-    grid-area: 2 / 1 / 3 / 3;
-    width: 80%;
-    height: auto;
 }
 .conatctDiv {
     grid-area: 1 / 2 / 2 / 3;
@@ -175,13 +185,14 @@ ul > li {
 .contactDiv > h3 {
     font-size: 2em;
     text-align: center;
-    border-bottom: 2px solid rgb(206, 13, 13)
+    border-bottom: 2px solid rgb(206, 13, 13);
 }
 .contactDiv > p {
     font-size: 1.4em;
     text-align: center;
     padding-bottom: 4%;
-    border-bottom: 2px solid rgb(206, 13, 13)
+    border-bottom: 2px solid rgb(206, 13, 13);
+    font-weight: 600;
 }
 .mapDiv {
     display: flex;
@@ -189,8 +200,13 @@ ul > li {
     justify-content: center;
     align-items: center;
     margin: auto;
+    background-color: white;
+    grid-area: 2 / 1 / 3 / 3;
+    width: 60%;
+    height: 70%;
 }
 .mapDiv > h3 {
     font-size: 2em;
+    margin: 0 0 0 1%;
 }
 
